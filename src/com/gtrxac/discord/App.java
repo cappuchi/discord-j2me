@@ -252,7 +252,7 @@ public class App extends MIDlet implements Strings {
 	// See https://github.com/shinovon/JTube/blob/670ea59a94d6b5be8af53d94d7804b2d35b64e52/src/jtube/Util.java#L521
 	public static String getPlatformSpecificUrl(String url) {
 //#ifdef BLACKBERRY
-		if (Settings.bbWifi) {
+		if (Settings.bbWifi && HTTP.CONNECTION_TYPE != HTTP.CONNECTION_TYPE_BLUETOOTH) {
 			return url + ";deviceside=true;interface=wifi";
 		}
 //#endif
