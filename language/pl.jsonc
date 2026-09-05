@@ -805,13 +805,13 @@
     // Types of data shown in the data manager:
 
     // Downloaded image data of default emojis (not custom server emojis)
-    "Obrazki emotikon",
+    "Obrazki emotikonów",
     // Timestamps of last read messages for each channel, used for handling unread message indicators.
     "Ostatnio przecz. wiad.",
     // Custom sound file applied as the notification sound via a message attachment.
     "Dźwięk powiadomienia",
     // Translated string data for a downloaded language translation.
-    "Dane języków",
+    "Dane językowe",
 
     // Title shown in the prompt when deleting a type of app data.
     "Usuń",
